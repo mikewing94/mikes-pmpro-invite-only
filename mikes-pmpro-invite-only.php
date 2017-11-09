@@ -320,7 +320,7 @@ function pmproio_displayInviteCodes($user_id = null, $unused = true, $used = fal
 							}
 							else
 							{
-								if(current_user_can('manage_options'))
+								if(current_user_can('pmpro_role_3'))
 									$userlink = "<a href='/profile/?uid=$user_id'>" . $display_name . "</a>";
 							}
 							?>

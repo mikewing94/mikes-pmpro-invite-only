@@ -327,10 +327,7 @@ function pmproio_displayInviteCodes($user_id = null, $unused = true, $used = fal
 							<tr>
 								<td>
 									<?php
-									if(!empty($userlink))
 										echo $userlink;
-									else
-										echo $display_name;
 									?>
 								</td>
 								<td><?php echo $code; ?></td>
